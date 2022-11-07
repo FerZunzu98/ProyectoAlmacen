@@ -133,6 +133,7 @@ let catalogo = JSON.parse(texto);
 
 let alm1 = new Almacen(150);
 for (let elemento of catalogo) {
+    console.log(elemento)
     console.log(alm1.introducir(elemento))
 }
 
